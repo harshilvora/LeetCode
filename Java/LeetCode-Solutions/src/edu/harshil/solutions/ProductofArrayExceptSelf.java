@@ -1,8 +1,9 @@
-package edu.harshil.arrays;
+package edu.harshil.solutions;
 
 import java.util.Arrays;
 
 /**
+ * https://leetcode.com/problems/product-of-array-except-self/
  * Given an integer array nums, return an array answer such that answer[i] is
  * equal to the product of all the elements of nums except nums[i].
  *
@@ -35,8 +36,8 @@ import java.util.Arrays;
 public class ProductofArrayExceptSelf {
 
     /**
-     * Runtime 2 ms Beats 67.14%
-     * Memory 50.8 MB Beats 61.91%
+     * Runtime 2 ms Beats 67.14% O(N)
+     * Memory 50.8 MB Beats 61.91% O(N)
      */
     public int[] productExceptSelf(int[] nums) {
         int[] output = new int[nums.length];
@@ -60,18 +61,16 @@ public class ProductofArrayExceptSelf {
     }
 
     /**
-     * Runtime 2 ms Beats 67.14%
-     * Memory 50.4 MB Beats 86.83%
+     * Runtime 1 ms Beats 100% O(N)
+     * Memory 50 MB Beats 99.49% O(1)
      */
     public int[] productExceptSelfSpaceOptimized(int[] nums) {
         int[] output = new int[nums.length];
-        Arrays.fill(output, 1);
+        output[0] = 1;
         int right = 1;
-
         for(int i=1;i<nums.length; i++){
             output[i] = output[i-1] * nums[i-1];
         }
-
         for(int i=nums.length-2;i>=0; i--){
             right *= nums[i+1];
             output[i] = output[i] * right;
