@@ -5,40 +5,45 @@ package edu.harshil.solutions.LC75;
  * https://leetcode.com/problems/palindrome-linked-list
  * Given the head of a singly linked list, return true if it is a
  * palindrome  or false otherwise.
- *
+ * <p>
  * Constraints:
- *
+ * <p>
  * The number of nodes in the list is in the range [1, 105].
  * 0 <= Node.val <= 9
- *
- *
+ * <p>
+ * <p>
  * Follow up: Could you do it in O(n) time and O(1) space?
- *
- *
  */
 class IsPalindromeLinkedList {
     //  Definition for singly-linked list.
     class ListNode {
         int val;
         ListNode next;
-        ListNode() {}
-        ListNode(int val) { this.val = val; }
-        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+
+        ListNode() {
+        }
+
+        ListNode(int val) {
+            this.val = val;
+        }
+
+        ListNode(int val, ListNode next) {
+            this.val = val;
+            this.next = next;
+        }
     }
 
     /**
      * Runtime 6 ms Beats 46.28% O(n)
      * Memory 63.5 MB Beats 17.61% O(1)
-     *
      */
     public boolean isPalindrome(ListNode head) {
 
         ListNode first = head;
         ListNode firstEnd = getFirstHalf(head);
         ListNode secondStart = reverseList(firstEnd.next);
-        while(first !=firstEnd.next && secondStart != null){
-            if(first.val != secondStart.val)
-            {
+        while (first != firstEnd.next && secondStart != null) {
+            if (first.val != secondStart.val) {
                 return false;
             }
             first = first.next;
@@ -47,11 +52,11 @@ class IsPalindromeLinkedList {
         return true;
     }
 
-    public ListNode reverseList(ListNode list){
+    public ListNode reverseList(ListNode list) {
         ListNode prev = null;
 
         ListNode head = list;
-        while(head != null){
+        while (head != null) {
             ListNode nextNode = head.next;
             head.next = prev;
             prev = head;
@@ -60,10 +65,10 @@ class IsPalindromeLinkedList {
         return prev;
     }
 
-    public ListNode getFirstHalf(ListNode list){
+    public ListNode getFirstHalf(ListNode list) {
         ListNode slow = list;
         ListNode fast = list;
-        while(fast.next != null && fast.next.next != null){
+        while (fast.next != null && fast.next.next != null) {
             slow = slow.next;
             fast = fast.next.next;
         }
