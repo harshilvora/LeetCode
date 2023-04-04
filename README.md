@@ -20,6 +20,7 @@ LeetCode 75 Study Plan 2 Questions 2023
 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)                                        | [Java](Java/LeetCode-Solutions/src/edu/harshil/solutions/LC75/OddEvenLinkedList.java)      |
 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix)                                                       | [Java](Java/LeetCode-Solutions/src/edu/harshil/solutions/LC75/SpiralMatrix.java)           |                                                                                  |                                     |
 | [Where Will the Ball Fall](https://leetcode.com/problems/where-will-the-ball-fall/description/)                    | [Java](Java/LeetCode-Solutions/src/edu/harshil/solutions/LC75/WhereBallFall.java)          |
-| [Sort List](https://leetcode.com/problems/sort-list)                                                               | [Java](Java/LeetCode-Solutions/src/edu/harshil/solutions/LC75/SortList.java)               |                                                                                                            |                                                                                           |
+| [Sort List](https://leetcode.com/problems/sort-list)                                                               | [Java](Java/LeetCode-Solutions/src/edu/harshil/solutions/LC75/SortList.java)               |
+| [ Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)   | [Java](Java/LeetCode-Solutions/src/edu/harshil/solutions/LC75/RemoveNNodeEndList.java)     |
 
  
