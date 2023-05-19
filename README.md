@@ -28,5 +28,6 @@ Solutions:
 | [Happy Number](https://leetcode.com/problems/happy-number)                                                         | [Java](Java/LeetCode-Solutions/src/edu/harshil/solutions/LC75/HappyNumber.java)              |
 | [Spiral Matrix 2](https://leetcode.com/problems/spiral-matrix-ii/description/)                                     | [Java](Java/LeetCode-Solutions/src/edu/harshil/solutions/SpiralMatrix2.java)                 |
 | [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/description/)              | [Java](Java/LeetCode-Solutions/src/edu/harshil/solutions/LC75/PacificAtlanticWaterFlow.java) |
+| [House Robber](https://leetcode.com/problems/house-robber/description)                                             | [Java](Java/LeetCode-Solutions/src/edu/harshil/solutions/LC75/HouseRobber.java)              |
 
  

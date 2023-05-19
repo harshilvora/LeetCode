@@ -14,4 +14,5 @@ Solutions:
 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/) | [Java](RemoveNNodeEndList.java)       |
 | [Happy Number](https://leetcode.com/problems/happy-number)                                                      | [Java](HappyNumber.java)              |
 | [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/description/)           | [Java](PacificAtlanticWaterFlow.java) |
+| [House Robber](https://leetcode.com/problems/house-robber/description)                                          | [Java](HouseRobber.java)              |
  
