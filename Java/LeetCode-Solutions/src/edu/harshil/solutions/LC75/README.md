@@ -15,4 +15,5 @@ Solutions:
 | [Happy Number](https://leetcode.com/problems/happy-number)                                                      | [Java](HappyNumber.java)              |
 | [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/description/)           | [Java](PacificAtlanticWaterFlow.java) |
 | [House Robber](https://leetcode.com/problems/house-robber/description)                                          | [Java](HouseRobber.java)              |
+| [Task Scheduler](https://leetcode.com/problems/task-scheduler/description/)                                     | [Java](TaskScheduler.java)            |
  
