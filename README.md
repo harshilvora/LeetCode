@@ -30,4 +30,5 @@ Solutions:
 | [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/description/)              | [Java](Java/LeetCode-Solutions/src/edu/harshil/solutions/LC75/PacificAtlanticWaterFlow.java) |
 | [House Robber](https://leetcode.com/problems/house-robber/description)                                             | [Java](Java/LeetCode-Solutions/src/edu/harshil/solutions/LC75/HouseRobber.java)              |
 | [Task Scheduler](https://leetcode.com/problems/task-scheduler/description/)                                        | [Java](Java/LeetCode-Solutions/src/edu/harshil/solutions/LC75/TaskScheduler.java)            |
+| [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/description/)                                | [Java](Java/LeetCode-Solutions/src/edu/harshil/solutions/LC75/Search2DMatrix.java)           |
  

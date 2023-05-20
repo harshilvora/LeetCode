@@ -16,4 +16,5 @@ Solutions:
 | [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/description/)           | [Java](PacificAtlanticWaterFlow.java) |
 | [House Robber](https://leetcode.com/problems/house-robber/description)                                          | [Java](HouseRobber.java)              |
 | [Task Scheduler](https://leetcode.com/problems/task-scheduler/description/)                                     | [Java](TaskScheduler.java)            |
+| [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/description/)                             | [Java](Search2DMatrix.java)           |
  
