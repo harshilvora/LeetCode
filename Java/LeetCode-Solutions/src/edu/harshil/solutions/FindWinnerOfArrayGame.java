@@ -1,7 +1,7 @@
 package edu.harshil.solutions;
 
 /**
- * https://leetcode.com/problems/find-the-winner-of-an-array-game/description/
+ * <a href="https://leetcode.com/problems/find-the-winner-of-an-array-game/description/">1503. Last Moment Before All Ants Fall Out of a Plank</a>
  * Given an integer array arr of distinct integers and an integer k.
  *
  * A game will be played between the first two elements of the array (i.e. arr[0] and arr[1]). In each round of the game, we compare arr[0] with arr[1], the larger integer wins and remains at position 0, and the smaller integer moves to the end of the array. The game ends when an integer wins k consecutive rounds.
@@ -40,8 +40,8 @@ package edu.harshil.solutions;
 public class FindWinnerOfArrayGame {
 
     /**
-     * Runtime 0 ms Beats 100%
-     * Memory 56.7 MB Beats 42.75%
+     * Runtime 0 ms Beats 100% O(N)
+     * Memory 56.7 MB Beats 42.75% O(1)
      *
      */
     public int getWinner(int[] arr, int k) {
