@@ -31,4 +31,5 @@ Solutions:
 | [House Robber](https://leetcode.com/problems/house-robber/description)                                             | [Java](Java/LeetCode-Solutions/src/edu/harshil/solutions/LC75/HouseRobber.java)              |
 | [Task Scheduler](https://leetcode.com/problems/task-scheduler/description/)                                        | [Java](Java/LeetCode-Solutions/src/edu/harshil/solutions/LC75/TaskScheduler.java)            |
 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/description/)                                | [Java](Java/LeetCode-Solutions/src/edu/harshil/solutions/LC75/Search2DMatrix.java)           |
+| [Find the Winner of an Array Game](https://leetcode.com/problems/find-the-winner-of-an-array-game/description/)    | [Java](Java/LeetCode-Solutions/src/edu/harshil/solutions/FindWinnerOfArrayGame.java)         |
  
